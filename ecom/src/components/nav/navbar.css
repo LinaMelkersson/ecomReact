@@ -1,0 +1,48 @@
+.loggo {
+    height: 3rem;
+}
+
+.cartbtn {
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* .cartbtn :hover {
+    background: none;
+    outline: none;
+    box-shadow: none;
+
+} */
+
+/* .btn :hover {
+    background: none;
+    outline: none;
+    box-shadow: none;
+
+} */
+
+/* .btn-primary :hover {
+    background: none;
+    outline: none;
+    box-shadow: none;
+
+} */
+
+
+.dropdown :hover {
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdown-toggle :hover {
+    background: none;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.fa-shopping-cart {
+    color: black;
+}
