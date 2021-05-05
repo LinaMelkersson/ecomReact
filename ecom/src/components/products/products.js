@@ -1,17 +1,19 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../store/actions/cartactions';
+import './product.css'
 
 const ProductCard = ({product}) => {
-
   const dispatch = useDispatch();
+
+
 
   return (
     <div className="col">
-      <div className="card h-100">
+      <div className="card h-70">
         <img
-          src={product.img}
-          className="card-img-top"
+          src={`assets/${product.img}`}
+          className="card-img-top primg"
           alt="..."
         />
         <div className="card-body">
