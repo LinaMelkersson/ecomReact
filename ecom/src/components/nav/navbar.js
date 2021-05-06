@@ -35,17 +35,16 @@ const Navbar = () => {
                     <NavLink exact className="nav-link" to="/register">Register</NavLink>
                     </li>
                     <div className="dropdown">
-                    <button
-                        className="btn btn-primary dropdown-toggle cartbtn"
+                    <span
+                        className="btn dropdown-toggle cartbtn"
                         type="button"
-                        id="dropdownMenuButton"
+                        id="dropdownMenuLink"
                         data-mdb-toggle="dropdown"
                         aria-expanded="false"
                     >
                         <i className="fas fa-shopping-cart"></i>
-                    </button>
-                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        
+                    </span>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <ShoppingCart/>
                     </ul>
                     </div>

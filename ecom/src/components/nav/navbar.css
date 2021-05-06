@@ -8,26 +8,9 @@
     box-shadow: none;
 }
 
-/* .cartbtn :hover {
-    background: none;
-    outline: none;
-    box-shadow: none;
-
-} */
-
-/* .btn :hover {
-    background: none;
-    outline: none;
-    box-shadow: none;
-
-} */
-
-/* .btn-primary :hover {
-    background: none;
-    outline: none;
-    box-shadow: none;
-
-} */
+.dropdown-menu {
+    border-radius: 11px;
+}
 
 
 .dropdown :hover {

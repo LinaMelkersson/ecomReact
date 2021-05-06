@@ -6,7 +6,7 @@ import { getProductCatalog } from '../store/actions/productcat';
 const Products = () => {
 
   const dispatch = useDispatch();
-  const productCatalog = useSelector(state => state.productReducer)
+  const productCatalog = useSelector(state => state.productReducer.set)
 
   useEffect(() => {
     dispatch(getProductCatalog())
@@ -17,7 +17,6 @@ const Products = () => {
       {
         productCatalog && productCatalog.map(product => (
           <ProductCard key={product._id} product={product} />
-          
         ))
       }
       

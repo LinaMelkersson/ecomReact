@@ -1,7 +1,8 @@
 const actiontypes = () => {
     return {
       productCatalog: {
-        set: 'SET_PRODUCT_CATALOG'
+        set: 'SET_PRODUCT_CATALOG',
+        product: 'GET_ONE_PRODUCT'
       },
       cart: {
         add: 'ADD_TO_CART',

@@ -1,3 +1,11 @@
 .primg {
     height: 15rem;
+    width: 15rem;
+    padding-top: 1rem;
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
 }

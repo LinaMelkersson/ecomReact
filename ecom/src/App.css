@@ -3,9 +3,25 @@
 }
 .home {
   color: pink;
+  padding-bottom: 2rem;
 }
 .App-link {
   color: #61dafb;
 }
 
+.footer {
+  height: 5rem;
+}
+
+.login {
+  width: 40%;
+  margin: auto;
+}
+
+.clickreg {
+  display: grid;
+  justify-content: center;
+  padding-top: 2rem;
+  text-align: center;
+}
 

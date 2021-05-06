@@ -1,0 +1,19 @@
+.cartcontainer {
+    background: rgb(145, 148, 143);
+    width: 25rem;
+    border-radius: 10px;
+
+}
+
+.cartcontainer:hover{
+    background: rgb(145, 148, 143);
+    border-radius: 10px;
+}
+
+.cartrad {
+    border-radius: 10px;
+}
+
+.cartrad:hover {
+    border-radius: 10px;
+}

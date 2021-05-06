@@ -5,6 +5,7 @@ import Navbar from './components/nav/navbar'
 import Products from './views/product'
 import Login from './views/login'
 import Register from './views/register'
+import Singleproduct from './views/singleproduct'
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
           <Route exact path="/products" component={Products} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/singleproduct/:id" component={Singleproduct} />
         </Switch>
       </div>
+
+      <footer className="footer"></footer>
 
     </BrowserRouter>
   );
