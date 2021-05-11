@@ -12,7 +12,7 @@ const ProductCard = ({product}) => {
       <div className="card h-70">
         <Link to={`/singleproduct/${product._id}`}>
           <img
-            src={`assets/${product.img}`}
+            src={`../assets/${product.img}`}
             className="card-img-top primg"
             alt="..."
           />
@@ -25,6 +25,7 @@ const ProductCard = ({product}) => {
           </div>
         </Link>
         <button className="btn btn-info mb-3" onClick={() => {
+            console.log(product)
             dispatch(addToCart(product))
           }}>Add to cart</button>
       </div>

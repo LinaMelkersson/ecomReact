@@ -25,3 +25,13 @@
   text-align: center;
 }
 
+.onepic {
+  height: 20rem;
+  width: 20rem;
+}
+
+.gridprod {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+

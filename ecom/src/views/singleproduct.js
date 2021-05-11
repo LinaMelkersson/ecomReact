@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { getOneProduct, setOneProduct } from '../store/actions/productcat'
+import { addToCart } from '../store/actions/cartactions'
 
 const Singleproduct = () => {
 
@@ -22,13 +23,21 @@ const Singleproduct = () => {
         <div>
             {
                 product ? 
-                <div>
+                <div className="gridprod">
                     <div>
-                    <h1>{ product.title }</h1>
-                    <p> { product.description }</p>
+                        <img className="onepic" 
+                        src={`../assets/${product.img}`} 
+                        alt="..."></img>
                     </div>
                     <div>
-                        <img src={`../assets/${product.img}`} alt="..."></img>
+                        <h1>{ product.title }</h1>
+                        <p> { product.description }</p>
+                        <h3> { product.price } kr</h3>
+                        <br></br>
+                        <button className="btn btn-info mb-3" onClick={() => {
+                            console.log(product)
+                        dispatch(addToCart(product))
+                        }}>Add to cart</button>
                     </div>
 
                 </div>
